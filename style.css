@@ -2,7 +2,7 @@
 :root {
     --bodygrey: rgb(80, 74, 74);
     --orange: rgb(153, 77, 0);
-    --darkorange: rgb(92, 46, 0);
+    --darkorange: rgb(124, 62, 0);
     --bluehue: 200;
     --bluelight: hsl(var(--bluehue) 100% 50%);
     --blue: hsl(var(--bluehue) 100% 45%);
@@ -29,7 +29,7 @@ button {
     border: 4px solid transparent;
     border-radius: 15px;
     background:
-    linear-gradient(var(--orange), var(--orange)) padding-box,
+    linear-gradient(var(--orange), var(--darkorange)) padding-box,
 
     radial-gradient(var(--bluelight), var(--blue),
     transparent 60%) no-repeat fixed
